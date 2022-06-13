@@ -1,0 +1,49 @@
+
+body {
+  background-color: #202020;
+  color: white;
+  font-family:'Kdam Thmor Pro', sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#btn {
+  background: #e10946;  /* fallback for old browsers */
+ 
+  }
+.favicon {
+  color: #e10946;
+ }
+
+.favicon :hover{
+  color: #e1094689;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  text-transform: uppercase; 
+}
+
+.svg-about {
+  width: 400px;
+ 
+}
+
+header img {
+  width: 60%;
+  -webkit-box-shadow: -17px -1px 50px -5px rgba(255,13,84,0.55); 
+box-shadow: -17px -1px 50px -5px rgba(255,13,84,0.55);
+  border-radius: 50%;
+}
+
+.footer {
+  background: #4341415b
+}
+

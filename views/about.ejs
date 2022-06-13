@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <%- include('partials/head') %>
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+
+        <!-- My Content -->
+        <div class="container pt-2 text-center grid justify-content-center align-items-center vh-100">
+            <h1 class="display-1">About me</h1>
+                <p>
+                    I consider myself a persistent person who likes challenges, knowing how to learn new things and put
+                    them into practice. I have always been curious and attracted to technology, but I had never set out
+                    to work on something directly related to it.
+                    As new information and communication technologies have evolved, I have become aware of their
+                    potential and the job opportunities offered by this field. That's why I decided to embark on the
+                    adventure of training in software development. The programming language that I like the most is
+                    JavaScript, because of its versatility, where I would like to go more into the backend area.
+                </p>   
+                <img 
+                src="/img/developer.svg" 
+                class=" svg-about m-auto animated bounceIn "
+                />
+           
+        </div>
+
+        <%- include('partials/footer') %>
+       
+</body>
+
+</html>

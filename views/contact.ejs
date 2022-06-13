@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/head') %>
+</head>
+<body>
+
+    <%- include('partials/navbar') %>
+
+    
+    <form class="container-fluid col-md-4 mt-5 mb-5 vh-100">
+        <h1>Contact me</h1>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Your full name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput3" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Subject">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write something..."></textarea>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn w-25" id="btn">Send</button>
+          </div>
+    
+    </form>
+    
+    <%- include('partials/footer') %>
+    
+</body>
+</html>
